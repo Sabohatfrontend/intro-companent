@@ -17,27 +17,165 @@ body{
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial",sans-serif;
+  font-family: "Inter", "Arial",sans-serif;
   font-size: 16px;
-  line-height: 1.5;
-  background-color: #fff;
-  color: black;
+  line-height: 19px;
+  background-color: #E7E7E7;
 }
 
 img{
-  min-width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
 .container{
   width: 100%;
-  max-width: 1200px;
+  max-width: 1252px;
   padding-left: 50px;
   padding-right: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.button-intro{
+  display: inline-block;
+  padding: 4px 14px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 41px;
+  opacity: 0.8;
+  border: 1px solid #FFFFFF;
+  color: #fff;
+}
+
+.button{
+  display: block;
+  width: 100%;
+  padding: 20px 20px 21px;
+  font-weight: 600;
+  background-color: #655AF2;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
 .main-content{
   flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+}
+
+.site-intro {
+  display: flex;
+  flex-direction: column;
+  width: 570px;
+  padding-top: 55px;
+  border-radius: 20px;
+  background-image: url(../img/Intro-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  margin-right: 12px;
+}
+
+.site-intro-content{
+  margin-left: 60px;
+  padding-bottom: 203px;
+}
+
+.site-intro-heading {
+  margin-top: 60px;
+  margin-bottom: 25px;
+  width: 389px;
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.site-intro-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 347px;
+  line-height: 26px;
+}
+
+.site-intro-footer{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 29px;
+  padding-bottom: 28px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+  background-color: #4DC490;
+  text-align: center;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+.sign-up-section {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  padding-top: 55px;
+  padding-bottom: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.sign-up-section-heading {
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 79px;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.sign-up-form{
+  margin-bottom: 8px;
+}
+
+.sign-up-input {
+  width: 100%;
+  padding-top: 4px;
+  padding-left: 0;
+  padding-right: 0;
+  font-weight: normal;
+  color: #000000;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+.sign-up-input:not(:last-child){
+  margin-bottom: 35px;
+}
+
+.sign-up-input:last-child{
+  margin-bottom: 63px;
+}
+
+.sign-up-footer-text{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 11px;
+  line-height: 15px;
+  font-weight: normal;
+  color: #555555;
+  text-align: center;
+}
+
+.sign-up-footer-link{
+  display: inline-block;
+  font-weight: 500;
+  color: #F03535;
 }

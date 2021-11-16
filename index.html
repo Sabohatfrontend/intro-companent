@@ -5,12 +5,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project</title>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+<div class="main-content container">
+  <section class="site-intro">
+    <div class="site-intro-content">
+      <button class="button-intro" type="submit">frontend and backend</button>
+      <h2 class="site-intro-heading">Learn to program by watching professionals</h2>
+      <p class="site-intro-text">See how experienced developers solve problems in real time</p>
+    </div>
+    <p class="site-intro-footer">Try it free 7 days, then $20/mo</p>
+  </section>
+  <section class="sign-up-section">
+    <h2 class="sign-up-section-heading">Sign up for the course and<br>get free 7 days</h2>
+    <form class="sign-up-form" action="htpps://echo.htmlacademy.ru" method="post">
+     <div>
+      <input class="sign-up-input" type="text" name="first_name" aria-label="first name" placeholder="first name" required>
+      <input class="sign-up-input" type="text" name="last_name" aria-label="last name" placeholder="last name" required>
+      <input class="sign-up-input" type="email" name="email" aria-label="email" placeholder="Email Address" required>
+      <input class="sign-up-input" type="password" name="password" aria-label="Password" placeholder="Password" required>
+     </div>
+      <button class="button" type="submit">Claim your free trial</button>
+    </form>
+    <p class="sign-up-footer-text">By clicking the button, you are agreeing to our
+      <a class="sign-up-footer-link" href="#">Terms and Services</a>
+    </p>
+  </section>
+</div>
 <script src="js/main.js"></script>
 </body>
 </html>
