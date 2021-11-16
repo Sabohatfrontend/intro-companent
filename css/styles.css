@@ -37,18 +37,17 @@ img{
   margin-right: auto;
 }
 
-.button-intro{
-  display: inline-block;
-  padding: 4px 14px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  text-align: center;
-  background-color: transparent;
-  border-radius: 41px;
-  opacity: 0.8;
-  border: 1px solid #FFFFFF;
-  color: #fff;
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .button{
@@ -62,10 +61,13 @@ img{
   border-radius: 10px;
 }
 
+.button:active{
+  background-color: #3A2BF8;
+}
+
 .main-content{
   flex-grow: 1;
   display: flex;
-  align-items: flex-start;
 }
 
 .site-intro {
@@ -88,6 +90,23 @@ img{
   padding-bottom: 203px;
 }
 
+
+.text-intro{
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 4px 14px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 41px;
+  opacity: 0.8;
+  border: 1px solid #FFFFFF;
+  color: #fff;
+}
+
 .site-intro-heading {
   margin-top: 60px;
   margin-bottom: 25px;
@@ -104,7 +123,7 @@ img{
 }
 
 .site-intro-footer{
-  margin-top: 0;
+  margin-top: auto;
   margin-bottom: 0;
   padding-top: 29px;
   padding-bottom: 28px;
@@ -154,8 +173,8 @@ img{
   padding-bottom: 10px;
   border: none;
   border-bottom: 1px solid #000000;
+  cursor: auto;
 }
-
 .sign-up-input:not(:last-child){
   margin-bottom: 35px;
 }
@@ -164,6 +183,17 @@ img{
   margin-bottom: 63px;
 }
 
+/* .sign-up-input-bottom{
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: right;
+  color: #F03535;
+} */
+
+/* .sign-up-input-bottom:not(:last-child){
+  margin-bottom: 18px;
+} */
 .sign-up-footer-text{
   margin-top: 0;
   margin-bottom: 0;
