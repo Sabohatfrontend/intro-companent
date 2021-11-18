@@ -59,6 +59,7 @@ img{
   color: #fff;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .button:active{
@@ -166,8 +167,7 @@ img{
   padding-top: 4px;
   padding-left: 0;
   padding-right: 0;
-  font-weight: normal;
-  color: #000000;
+  color: #555555;
   text-transform: capitalize;
   padding-bottom: 10px;
   border: none;
@@ -180,6 +180,14 @@ img{
 
 .sign-up-input:last-child{
   margin-bottom: 63px;
+}
+
+.sign-up-input:focus{
+  outline: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
 }
 
 /* .sign-up-input-bottom{
